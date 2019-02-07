@@ -7,6 +7,6 @@
     "lerna": "^3.10.2"
   },
   "scripts": {
-    "prepare": "lerna exec \"touch i-ran\""
+    "postinstall": "lerna exec \"touch i-ran\"" 
   }
 }
