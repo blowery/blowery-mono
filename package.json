@@ -2,7 +2,9 @@
   "name": "blowery-mono",
   "version": "1.0.1",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "blowery-animal": "file:packages/blowery-animal"
+  },
   "devDependencies": {
     "@pika/pack": "^0.3.1",
     "lerna": "^3.10.2"
