@@ -4,10 +4,11 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "@pika/pack": "^0.3.1",
     "lerna": "^3.10.2"
   },
   "scripts": {
     "prepare": "echo prepare for the worst",
-    "postinstall": "node bin/build-packages.js" 
+    "postinstall": "node bin/build-packages.js"
   }
 }
