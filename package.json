@@ -1,7 +1,9 @@
 {
   "name": "blowery-mono",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "blowery-animal": "./packages/blowery-animal"
+  },
   "devDependencies": {
     "lerna": "^3.10.2"
   }
