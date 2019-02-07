@@ -24,7 +24,8 @@
     "url": "https://github.com/blowery/blowery-mono/issues"
   },
   "dependencies": {
-    "blowery-duck": "file:../blowery-duck",
-    "blowery-rabbit": "file:../blowery-rabbit"
-  }
+    "blowery-duck": "^1.0.1",
+    "blowery-rabbit": "^1.0.1"
+  },
+  "gitHead": "dae896ec6db7ba4816aa7ccd8551a35e9b798940"
 }
