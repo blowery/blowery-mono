@@ -1,6 +1,6 @@
 {
   "name": "blowery-animal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "animals",
   "author": "Ben Lowery <ben.lowery@automattic.com>",
   "homepage": "https://github.com/blowery/blowery-mono#readme",
@@ -24,8 +24,8 @@
     "url": "https://github.com/blowery/blowery-mono/issues"
   },
   "dependencies": {
-    "blowery-duck": "^1.0.1",
-    "blowery-rabbit": "^1.0.1"
+    "blowery-duck": "^1.0.2",
+    "blowery-rabbit": "^1.0.2"
   },
   "gitHead": "dae896ec6db7ba4816aa7ccd8551a35e9b798940"
 }
