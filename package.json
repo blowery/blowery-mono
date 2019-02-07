@@ -7,6 +7,6 @@
     "lerna": "^3.10.2"
   },
   "scripts": {
-    "prepare": "node bin/build-packages.js"
+    "prepare": "lerna exec \"touch i-ran\""
   }
 }
