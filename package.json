@@ -5,6 +5,11 @@
     "blowery-animal": "file:./packages/blowery-animal"
   },
   "devDependencies": {
-    "lerna": "^3.10.2"
+    "lerna": "^3.10.2",
+    "bob": "file:./packages/bob"
+  },
+  "scripts": {
+    "postinstall": "echo [postinstall] root",
+    "prepare": "echo [prepare] root && npx lerna run prepare --stream"
   }
 }

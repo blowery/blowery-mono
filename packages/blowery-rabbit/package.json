@@ -18,7 +18,9 @@
     "url": "git+https://github.com/blowery/blowery-mono.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "postinstall": "echo [postinstall] rabbit",
+    "prepare": "bob"
   },
   "bugs": {
     "url": "https://github.com/blowery/blowery-mono/issues"

@@ -1,11 +1,14 @@
 {
-  "name": "blowery-animal",
-  "version": "1.0.0",
-  "description": "animals",
+  "name": "bob",
+  "version": "0.0.0",
+  "description": "> TODO: description",
   "author": "Ben Lowery <ben.lowery@automattic.com>",
   "homepage": "https://github.com/blowery/blowery-mono#readme",
   "license": "ISC",
-  "main": "lib/blowery-animal.js",
+  "main": "lib/bob.js",
+  "bin": {
+    "bob": "./lib/cli.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,15 +21,9 @@
     "url": "git+https://github.com/blowery/blowery-mono.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "postinstall": "echo [postinstall] animal",
-    "prepare": "bob"
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/blowery/blowery-mono/issues"
-  },
-  "dependencies": {
-    "blowery-duck": "file:../blowery-duck",
-    "blowery-rabbit": "file:../blowery-rabbit"
   }
 }
